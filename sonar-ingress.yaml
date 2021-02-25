@@ -7,10 +7,10 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: sonar.ingress.forkedprocess.com
+  - host: sonar.ingress.abraaojs.com
     http:
       paths:
       - path: /
         backend:
           serviceName: sonar-svc
-          servicePort: 80
+          servicePort: 9000
